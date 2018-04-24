@@ -1,0 +1,22 @@
+1. use "git pull --rebase" or "git rebase" instead of "git pull"
+
+2. commit message format: reason: commit meessage (Andrew ID)
+   
+   reason can be picked from the list below:
+   
+   ADD - add something new
+   FIX - fix a bug
+   MOD - change something
+   DEL - delete something
+   OTH - ohter reasons
+
+   commint message refers to the detail information for this commit
+
+   Andrew ID refers to the commiter's andrew id
+
+   For example:
+
+   ADD: .gitignore file for the whole project (haor)
+
+ 3. make sure that the code can correctly compile before you push
+
